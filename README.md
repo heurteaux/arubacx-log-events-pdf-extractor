@@ -11,7 +11,7 @@
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/heurteaux/arubacx-log-events-pdf-extractor/tree/master
+    git clone https://github.com/heurteaux/arubacx-log-events-pdf-extractor.git
     cd arubacx-log-events-pdf-extractor
     ```
 
