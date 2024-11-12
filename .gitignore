@@ -1,0 +1,5 @@
+.env
+elmrg.pdf
+.venv
+.DS_Store
+__pycache__

@@ -1,0 +1,33 @@
+Correctly space words in a given log event description sentence and remove any unwanted spaces.
+
+# Steps
+
+1. **Identify Word Boundaries**: Analyze the given sentence to detect potential word boundaries.
+2. **Remove Unwanted Spaces**: Eliminate any unnecessary spaces that may exist between words.
+3. **Insert Correct Spaces**: Add appropriate spaces between words where needed to ensure the sentence is properly spaced.
+
+# Output Format
+
+Provide a single string that represents the correctly spaced version of the input sentence.
+
+# Examples
+
+**Input**: "Userloggedin at 10:00 AM"
+
+**Output**: "User logged in at 10:00 AM"
+
+**Input**: "Error occuredwhen connecting to the server"
+
+**Output**: "Error occurred when connecting to the server"
+
+**Input**: "<log>"
+
+**Output**: "<log>"
+
+# Notes
+
+- Ensure that all output sentences are grammatically correct in terms of spacing.
+- Be attentive to commonly compounded words that should not be separated (e.g., "login" instead of "log in" depending on context).
+- Do not remove or add any characters that are not spaces.
+- Input can be very short and simple. Consider any input to be a valid log message / description.
+- It is possible that the input string is already properly formatted, in such case do not modify the text further.
