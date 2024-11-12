@@ -89,7 +89,7 @@ def create_batch(batch_list: list, client: OpenAI) -> str:
     spinner.start()
 
     with tempfile.NamedTemporaryFile(mode='w+') as temp:
-        for entry in batch_list[:DEBUG_NB_BATCH_ENTRIES]:
+        for entry in batch_list:
             json.dump(entry, temp)
             temp.write('\n')
 

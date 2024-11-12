@@ -34,12 +34,14 @@
 2. **Run the script:**
     ```sh
     poetry run python run.py <path_to_pdf> <path_to_output_json>
+    OR
+    ./run.py <path_to_pdf> <path_to_output_json>
     ```
     Replace `<path_to_pdf>` with the path to your source PDF file and `<path_to_output_json>` with the desired path for the output JSON file.
 
 ### Example
 ```sh
-poetry run python run.py ./logs/arubacx_logs.pdf ./output/logs.json
+./run.py ./logs/arubacx_logs.pdf ./output/logs.json
 ```
 
 ## Features
@@ -53,6 +55,10 @@ Because it is the most efficient way to sanitize the content of an unstructured 
 It isn't perfect and can make errors or output irrelevant logs so be careful but as the usecase isn't critical
 the use of such a technology was the most efficient way to achieve good results. The extraction work is performed 
 by a regex rather than the LLM.
+
+## OpenAPI cost ?
+
+For 8k log events it cost me less than 0.25€.
 
 ## Contact
 For any questions or issues, please contact Colin Heurteaux at dev@heurteaux.me.

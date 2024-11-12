@@ -14,7 +14,6 @@ class bcolors:
 # Config
 OPENAI_SANITIZE_MODEL = "gpt-4o-mini"
 API_PROGRESS_REFRESH_INTERVAL = 5
-DEBUG_NB_BATCH_ENTRIES = 5
 
 # Text formatting
 CLEAN_STR = lambda text: text.strip().replace('\n', '')
