@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "arubacx-pdf-extractor"
+name = "arubacx-log-events-pdf-extractor"
 version = "0.1.0"
 description = ""
 authors = ["Colin Heurteaux <dev@heurteaux.me>"]
