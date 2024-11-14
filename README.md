@@ -1,4 +1,4 @@
-# arubacx-pdf-extractor
+# arubacx-log-events-pdf-extractor
 
 ## Description
 [`arubacx-log-events-pdf-extractor`](command:_github.copilot.openSymbolFromReferences?%5B%22arubacx-pdf-extractor%22%2C%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2FUsers%2Fcheurteaux%2FDocuments%2Fcode%2Farubacx-pdf-extractor%2Fpyproject.toml%22%2C%22external%22%3A%22file%3A%2F%2F%2FUsers%2Fcheurteaux%2FDocuments%2Fcode%2Farubacx-pdf-extractor%2Fpyproject.toml%22%2C%22path%22%3A%22%2FUsers%2Fcheurteaux%2FDocuments%2Fcode%2Farubacx-pdf-extractor%2Fpyproject.toml%22%2C%22scheme%22%3A%22file%22%7D%2C%22pos%22%3A%7B%22line%22%3A1%2C%22character%22%3A8%7D%7D%5D%5D "Go to definition") is a tool designed to convert ArubaCX PDF log events documentation into a usable JSON file. It leverages OpenAI's API to sanitize and process the log events.
